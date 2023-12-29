@@ -1,0 +1,213 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1em;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #ffd700;
+}
+
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 5em 1em;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero h1,
+.hero p {
+    color: #000; /* Set the color to black */
+}
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+.models {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 3em 1em;
+}
+
+.model-card {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 1em;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.model-card:hover {
+    transform: scale(1.05);
+}
+
+.model-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.model-card h2 {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+
+.features {
+    text-align: center;
+    padding: 3em 1em;
+}
+
+.features h2 {
+    margin-bottom: 1em;
+}
+
+.features-list {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.features-list ul {
+    list-style: none;
+    padding: 0;
+    flex: 0 0 60%;
+}
+
+.features-list li {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.about {
+    background-color: #f9f9f9;
+    padding: 3em 1em;
+    text-align: center;
+}
+
+.about h2 {
+    color: #333;
+}
+.contact-content form label {
+    margin-bottom: 0.5em;
+}
+
+.contact-content form input,
+.contact-content form textarea {
+    width: 100%;
+    padding: 0.8em; 
+    margin-bottom: 1.5em; 
+    box-sizing: border-box;
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+}
+
+.contact-content form button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.8em 1em; 
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.contact-content form button:hover {
+    background-color: #555;
+}
+.contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact {
+    text-align: center;
+    padding: 3em 1em;
+}
+
+.contact-content h2 {
+    margin-bottom: 1em;
+}
+
+.contact-content p {
+    margin-bottom: 2em;
+}
+
+.contact-content form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-content form label {
+    margin-bottom: 0.5em;
+}
+
+.contact-content form input,
+.contact-content form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    box-sizing: border-box;
+}
+
+.contact-content form button {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.contact-content form button:hover {
+    background-color: #555;
+}
+
+#thankYouMessage {
+    margin-top: 2em;
+    color: #4CAF50;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: #fff;
+}
